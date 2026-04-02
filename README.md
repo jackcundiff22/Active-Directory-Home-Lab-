@@ -3,11 +3,21 @@
 
 ##  Overview
 
-This project is a hands-on Active Directory home lab built using Windows Server 2022 in a virtualized environment. The goal was to simulate a real-world enterprise IT environment by configuring domain services, user management, access control, Group Policy, and network file sharing.
+This project is a hands-on Active Directory home lab built in a virtualized Windows Server 2022 environment. The goal was to simulate a small business IT infrastructure by configuring identity management, access control, shared resources, and user policy enforcement.
 
-This lab demonstrates core IT support and system administration skills relevant to Help Desk, Desktop Support, and Junior IT roles.
+This lab demonstrates practical IT support and systems administration skills relevant to Help Desk, Desktop Support, Junior Systems Administration, and entry-level Infrastructure roles.
 
 ---
+
+## Project Objectives
+
+The purpose of this lab was to simulate a small business IT environment and practice common system administration tasks, including:
+
+* Deploying and organizing Active Directory users, groups, and OUs
+* Applying group-based permissions to shared resources
+* Enforcing security policies with Group Policy
+* Automating user resource access through mapped network drives
+* Testing user access and security restrictions across multiple roles
 
 ##  Technologies Used
 
@@ -32,6 +42,19 @@ This lab demonstrates core IT support and system administration skills relevant 
   * Interns
 
 ---
+
+## Lab Scenario
+
+This lab simulates a small company with multiple departments, each requiring separate access to files and resources.
+
+The environment was designed so that:
+
+* HR staff can access HR documents only
+* Finance staff can access Finance files only
+* IT staff can support systems and access IT resources
+* Interns have limited access and additional restrictions
+
+This setup reflects a basic real-world business environment where user access must be controlled based on job role.
 
 ##  User & Group Management
 
@@ -135,11 +158,14 @@ Tested each user role to verify correct behavior:
 * Read-only restrictions
 * Command Prompt and Control Panel blocked via GPO
 
-✔ Verified:
+✔ Validation included:
 
-* Authentication (login works)
-* Authorization (correct access levels)
-* Policy enforcement (restrictions applied)
+* Successful user authentication to the domain
+* Correct department-based file access
+* Denied access to unauthorized shares
+* Successful network drive mapping at login
+* GPO restrictions applied correctly to limited users
+* File edit/save testing within permitted folders
 
 ---
 
@@ -185,6 +211,18 @@ Examples:
 * IT Support Fundamentals
 
 ---
+
+## What I Learned
+
+Through this lab, I gained hands-on experience with several core IT administration concepts, including:
+
+* How Active Directory organizes users and resources in a business environment
+* Why security groups are better than assigning permissions directly to users
+* The difference between NTFS permissions and share permissions
+* How Group Policy can automate configuration and restrict user behavior
+* How to validate access controls by testing from the end-user perspective
+
+This project also helped me better understand how IT support and system administration overlap in real-world environments.
 
 ##  Future Improvements
 
