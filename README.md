@@ -157,16 +157,19 @@ Tested each user role to verify correct behavior:
 
 ##  Screenshots
 
+Examples:
 
+<h3>Active Directory Structure</h3>
+<img src="https://github.com/user-attachments/assets/fc9b4cd1-0323-4431-9a7b-435b8beb8537" width="800"/>
 
-Example:
-![Active Directory Structure] <img width="1918" height="1078" alt="active-directory-ous" src="https://github.com/user-attachments/assets/fc9b4cd1-0323-4431-9a7b-435b8beb8537" />
+<h3>Folder Permissions</h3>
+<img src="https://github.com/user-attachments/assets/a88daa1a-c9df-4ef5-bedc-be2094869363" width="800"/>
 
-![Group Policy Permissions] <img width="1918" height="1078" alt="it-folder-permissions-security" src="https://github.com/user-attachments/assets/a88daa1a-c9df-4ef5-bedc-be2094869363" />
+<h3>Mapped HR Drive</h3>
+<img src="https://github.com/user-attachments/assets/148cd1f4-eaf9-4465-ba4b-2e8f21fd37eb" width="800"/>
 
-![Mapped Drives] <img width="1911" height="1072" alt="hr-drive" src="https://github.com/user-attachments/assets/148cd1f4-eaf9-4465-ba4b-2e8f21fd37eb" />
-
-![Access Denied Example] <img width="1907" height="1073" alt="hr-user-denied" src="https://github.com/user-attachments/assets/46aa4afa-9f6a-4352-af59-ef6019c832a4" />
+<h3>Access Denied Validation</h3>
+<img src="https://github.com/user-attachments/assets/46aa4afa-9f6a-4352-af59-ef6019c832a4" width="800"/>
 
 
 ---
