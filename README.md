@@ -224,6 +224,8 @@ Through this lab, I gained hands-on experience with several core IT administrati
 
 This project also helped me better understand how IT support and system administration overlap in real-world environments.
 
+---
+
 ##  Future Improvements
 
 * Add Windows 10/11 client machine joined to domain
